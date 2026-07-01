@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kheyam Khan - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-brand">Kheyam Khan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="hero">
+        <img src="https://via.placeholder.com/150" alt="Profile photo of Kheyam Khan" class="profile-img" />
+        <h1>Hi, I'm <span class="highlight">Kheyam Khan</span></h1>
+        <p>Computer Science Student | Web Developer | Problem Solver</p>
+        <a href="#projects" class="btn">View My Projects</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          I am a passionate Computer Science student at Abdul Wali University Mardan. 
+          I love building web applications using HTML, CSS, JavaScript and C#. 
+          I have completed multiple projects and courses to improve my skills.
+        </p>
+        <div class="stats">
+          <div class="stat-box">
+            <h3>3.65</h3>
+            <p>CGPA</p>
+          </div>
+          <div class="stat-box">
+            <h3>4+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="stat-box">
+            <h3>3</h3>
+            <p>Semesters</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://via.placeholder.com/60" alt="HTML5 logo" />
+          <h3>HTML5</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+        </div>
+        <div class="skill-card">
+          <img src="https://via.placeholder.com/60" alt="CSS3 logo" />
+          <h3>CSS3</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <img src="https://via.placeholder.com/60" alt="JavaScript logo" />
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <img src="https://via.placeholder.com/60" alt="C Sharp logo" />
+          <h3>C#</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180" alt="Color Changer project screenshot" />
+          <h3>Color Scheme Switcher</h3>
+          <p>Click color boxes to change the background color of the page.</p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180" alt="Number Guessing Game screenshot" />
+          <h3>Number Guessing Game</h3>
+          <p>Guess a random number between 1 and 100 in 10 attempts.</p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180" alt="Digital Clock screenshot" />
+          <h3>Digital Clock</h3>
+          <p>A real-time digital clock built with JavaScript.</p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180" alt="BMI Calculator screenshot" />
+          <h3>BMI Calculator</h3>
+          <p>Calculate your Body Mass Index with this simple tool.</p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Kheyam Khan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
